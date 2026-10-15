@@ -1,0 +1,19 @@
+# Dépendances
+node_modules/
+
+# Secrets & données locales (NE JAMAIS committer)
+config.json
+server/.env
+server/data/
+data/
+*.key
+
+# Paquet de mise à jour
+app_update.zip
+
+# Divers
+dist/
+out/
+.DS_Store
+Thumbs.db
+*.log
